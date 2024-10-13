@@ -2,44 +2,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 
-
-body{
-    width: 100vw;
-    height: 100vh;
+html{
     font-family: "Open Sans", sans-serif;
     font-size: 1em;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: white;
 }
 
 h1{
-    font-size: 4rem;
+    font-size: calc(3.3rem + 1vw);
 }
 
 h2{
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 120%;
-    width: 60%;
+    font-size: calc(2rem + 1vw);
 }
 
 p{
-    font-size: 1.5rem;
-    line-height: 120%;
-    width: 80%;
+    font-size:  1.15rem;
 }
 
-.title-animate{
+.container{
+    min-width: 70%;
+    max-width: 100%;
+    width: 100vw;
+    padding: 8vw 40vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 4px;
+}
+
+.container-animate{
+    min-width: 70%;
+    max-width: 100%;
+    width: 100%;
+    padding: 8vw 18vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title-container{
+    font-weight: 800;
+    text-align: left;
+    line-height: 120%;
+}
+
+.text-container{
+    line-height: 120%;
+}
+
+.title-container-animate{
     font-family: "Luckiest Guy", cursive;
+    text-align: center;
+    line-height: 120%;
+}
+
+.text-container-animate{
+    text-align: center;
+    line-height: 120%;
+}
+
+.container-information{
+    width: 50%;
+    min-width: 60vh;
+    display: flexbox;
+}
+
+.container-animate-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-img{
+    width: calc(30rem + 2vw);
+    min-width: 60vh;
+}
+
+.container-even{
+    background-color: whitesmoke;
 }
 
 header{
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2vh;
-    flex-direction: column;
-    text-align: center;
     background-image: url(../img/Header\ Background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,70 +106,10 @@ header{
     color: white;
 }
 
-.container-01{
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    gap: 2vh;
-}
-
-.container-02{
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    gap: 2vh;
-    background-color: whitesmoke;
-}
-
-.container-03{
-    height: 70vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    gap: 2vh;
-}
-
-.container-04{
-    height: 140vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 2vh;
-    background-color: whitesmoke;
-}
-
-.container-information{
-    width: 35%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-
-    gap: 50%;
-
-}
-
-.container-img{
-    width: 45rem;
-}
-
-footer{
+footer {
     height: 20vh;
+    width: 100%;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color:#23272A;
