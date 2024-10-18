@@ -155,20 +155,14 @@ footer {
     
         
     h1{
-        width: 100%;
-        display: flex;
         font-size: calc(2.8rem + 1vw);
     }
 
     h2{
-        width: 100%;
-        display: flex;
         font-size: calc(1.5rem + 1vw);
     }
 
     p{
-        width: 100%;
-        display: flex;
         font-size:  1.15rem;
     }
     
@@ -293,20 +287,14 @@ footer {
     }
 
     h1{
-        width: 100%;
-        display: flex;
         font-size: calc(2.8rem + 1vw);
     }
 
     h2{
-        width: 100%;
-        display: flex;
         font-size: calc(1.5rem + 1vw);
     }
 
     p{
-        width: 100%;
-        display: flex;
         font-size:  1rem;
     }
     
@@ -436,20 +424,14 @@ footer {
     }
 
     h1{
-        width: 100%;
-        display: flex;
         font-size: calc(2rem + 1vw);
     }
 
     h2{
-        width: 100%;
-        display: flex;
         font-size: calc(1.5rem + 1vw);
     }
 
     p{
-        width: 100%;
-        display: flex;
         font-size:  1rem;
     }
     
@@ -498,24 +480,42 @@ footer {
 
     .title-container{
         font-weight: 800;
+        line-height: 120%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-align: left;
     }
-
+    
     .text-container{
         text-align: left;
         line-height: 120%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-
+    
     .title-container-animate{
         font-family: "Luckiest Guy", cursive;
-        text-align: left;
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        line-height: 120%;
+    }
+    
+    .text-container-animate{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
         line-height: 120%;
     }
 
-    .text-container-animate{
-        text-align: left;
-        line-height: 120%;
-    }
 
     .container-even{
         background-color: whitesmoke;
@@ -538,6 +538,4 @@ footer {
         justify-content: center;
         background-color:#23272A;
     }
-
-    
 }
