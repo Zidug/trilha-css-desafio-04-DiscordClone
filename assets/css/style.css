@@ -17,15 +17,15 @@ body{
 }
 
 h1{
-    font-size: calc(3.3rem + 1vw);
+    font-size: calc(3.3rem + 2vw);
 }
 
 h2{
-    font-size: calc(2rem + 1vw);
+    font-size: calc(2rem + 2vw);
 }
 
 p{
-    font-size:  1.15rem;
+    font-size:  calc(1rem + 1vw);
 }
 
 main{
@@ -37,7 +37,7 @@ main{
 
 .container{
     width: 100vw;
-    padding: 8vw;
+    padding: 6vw 8vw;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -49,7 +49,7 @@ main{
 
 .container-animate{
     width: 100%;
-    padding: 8vw ;
+    padding: 6vw 8vw;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -58,25 +58,25 @@ main{
 }
 
 .container-information{
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .container-animate-information{
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .container-img{
-    width: calc(35rem + 2vw);
-    width: 100%;
+    width: 50%;
 }
 
 .title-container{
@@ -124,6 +124,8 @@ main{
 header{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url(../img/Header\ Background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,32 +135,31 @@ header{
 
 .header-buttons{
     font-family: "Open Sans", sans-serif;
-    font-size: 1 rem;
-    font-weight: 400;        
+    font-size:  calc(1rem + 1vw);
+    font-weight: 500;        
     width: 100%;
     padding: 4vw;
     gap: 12px;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
     
 #header-button-left{
-    width: 100%;
-    height: calc(4vh + 2vw);
-    border-radius: 30px;
+    padding: 1.5vw 3vw;
+    border-radius: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #23272A;
     background-color: white;
 }
 
 #header-button-right{
-    width: 100%;
-    height: calc(4vh + 2vw);
-    border-radius: 30px;
+    padding: 1.5vw 3vw;
+    border-radius: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,7 +178,7 @@ footer {
 
 #footer-img{
     display: flex;
-    width: 50%;
+    width: 20%;
 }
 
 
@@ -240,20 +241,20 @@ footer {
         align-items: center;
         justify-content: center;
         display: flex;
-        gap: 50px;
+        gap: 20px;
     }
 
     .container-animate-information{
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 50px;
+        gap: 20px;
     }
 
     .container-img{
-        width: calc(20rem + 2vw);
-        width: 100%;
+        width: calc(25rem + 2vw);
     }
  
     .title-container{
@@ -301,6 +302,8 @@ footer {
     header{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         background-image: url(../img/Header\ Background.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -310,22 +313,21 @@ footer {
 
     .header-buttons{
         font-family: "Open Sans", sans-serif;
-        font-size: 1 rem;
+        font-size: 1rem;
         font-weight: 400;        
         width: 100%;
-        padding: 4vw;
+        padding: 2vw;
         gap: 12px;
         box-sizing: border-box;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
     }
     
     #header-button-left{
-        width: 100%;
-        height: calc(4vh + 2vw);
-        border-radius: 30px;
+        padding: 1.5vw 3vw;
+        border-radius: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -333,9 +335,8 @@ footer {
     }
 
     #header-button-right{
-        width: 100%;
-        height: calc(4vh + 2vw);
-        border-radius: 30px;
+        padding: 1.5vw 3vw;
+        border-radius: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -344,7 +345,7 @@ footer {
     }
     
     footer {
-        height: 20vh;
+        height: 15vh;
         width: 100%;
         display: flex;
         align-items: center;
@@ -354,7 +355,7 @@ footer {
 
     #footer-img{
         display: flex;
-        width: 50%;
+        width: 20%;
     }
 }
 
@@ -390,7 +391,7 @@ footer {
     
     .container{
         width: 100vw;
-        padding: 6vw;
+        padding: 8vw;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -402,7 +403,7 @@ footer {
 
     .container-animate{
         width: 100%;
-        padding: 6vw;
+        padding: 8vw;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -411,25 +412,26 @@ footer {
     }
         
     .container-information{
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         display: flex;
-        gap: 50px;
+        gap: 16px;
     }
 
     .container-animate-information{
-        width: 50%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 50px;
+        gap: 16px;
     }
 
     .container-img{
-        width: calc(20rem + 2vw);
-        width: 100%;
+        width: 80%;
+        max-width: 600px;
+
     }
 
     .title-container{
@@ -439,7 +441,7 @@ footer {
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
     }
     
     .text-container{
@@ -448,7 +450,7 @@ footer {
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
     }
     
     .title-container-animate{
@@ -477,6 +479,8 @@ footer {
     header{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         background-image: url(../img/Header\ Background.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -486,21 +490,20 @@ footer {
 
     .header-buttons{ 
         font-family: "Open Sans", sans-serif;
-        font-size: 1 rem;
+        text-align: center;
+        font-size: 1rem;
         font-weight: 400;       
         width: 100%;
-        padding: 4vw;
         gap: 12px;
         box-sizing: border-box;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
     }
     
     #header-button-left{
-        width: 100%;
-        height: calc(4vh + 2vw);
+        padding: 12px 16px;
         border-radius: 30px;
         display: flex;
         align-items: center;
@@ -509,8 +512,7 @@ footer {
     }
 
     #header-button-right{
-        width: 100%;
-        height: calc(4vh + 2vw);
+        padding: 12px 16px;
         border-radius: 30px;
         display: flex;
         align-items: center;
@@ -520,7 +522,7 @@ footer {
     }
     
     footer {
-        height: 20vh;
+        height: 15vh;
         width: 100%;
         display: flex;
         align-items: center;
@@ -530,7 +532,7 @@ footer {
 
     #footer-img{
         display: flex;
-        width: 50%;
+        width: 30%;
     }  
 }
 
@@ -572,7 +574,7 @@ footer {
     
     .container{
         width: 100vw;
-        padding: 4vw;
+        padding: 8vw 4vw;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -584,7 +586,7 @@ footer {
 
     .container-animate{
         width: 100%;
-        padding: 4vw;
+        padding: 8vw 4vw;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -661,6 +663,8 @@ footer {
     header{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         background-image: url(../img/Header\ Background.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -670,7 +674,7 @@ footer {
 
     .header-buttons{
         font-family: "Open Sans", sans-serif;
-        font-size: 1 rem;
+        font-size: 1rem;
         font-weight: 500;       
         width: 100%;
         padding: 4vw;
@@ -684,7 +688,6 @@ footer {
     
     #header-button-left{
         width: 100%;
-        height: calc(4vh + 2vw);
         border-radius: 30px;
         display: flex;
         align-items: center;
@@ -694,7 +697,6 @@ footer {
 
     #header-button-right{
         width: 100%;
-        height: calc(4vh + 2vw);
         border-radius: 30px;
         display: flex;
         align-items: center;
@@ -704,7 +706,7 @@ footer {
     }
 
     footer {
-        height: 10vh;
+        height: 8vh;
         width: 100%;
         display: flex;
         align-items: center;
@@ -714,6 +716,6 @@ footer {
 
     #footer-img{
         display: flex;
-        width: 50%;
+        width: 30%;
     }
 }
