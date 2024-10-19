@@ -62,17 +62,21 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+    gap: 50px;
+}
 
 .container-animate-information{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 50px;
 }
 
 .container-img{
     width: calc(35rem + 2vw);
+    width: 100%;
 }
 
 .title-container{
@@ -82,7 +86,7 @@ main{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .text-container{
@@ -91,7 +95,7 @@ main{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .title-container-animate{
@@ -119,11 +123,47 @@ main{
 
 header{
     display: flex;
+    flex-direction: column;
     background-image: url(../img/Header\ Background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
+}
+
+.header-buttons{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1 rem;
+    font-weight: 400;        
+    width: 100%;
+    padding: 4vw;
+    gap: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    
+#header-button-left{
+    width: 100%;
+    height: calc(4vh + 2vw);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#header-button-right{
+    width: 100%;
+    height: calc(4vh + 2vw);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #23272A;
 }
 
 footer {
@@ -133,6 +173,11 @@ footer {
     align-items: center;
     justify-content: center;
     background-color:#23272A;
+}
+
+#footer-img{
+    display: flex;
+    width: 50%;
 }
 
 
@@ -190,7 +235,12 @@ footer {
         
     .container-information{
         width: 50%;
-        display: flexbox;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 50px;
     }
 
     .container-animate-information{
@@ -198,10 +248,12 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 50px;
     }
 
     .container-img{
         width: calc(20rem + 2vw);
+        width: 100%;
     }
  
     .title-container{
@@ -248,11 +300,47 @@ footer {
     
     header{
         display: flex;
+        flex-direction: column;
         background-image: url(../img/Header\ Background.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         color: white;
+    }
+
+    .header-buttons{
+        font-family: "Open Sans", sans-serif;
+        font-size: 1 rem;
+        font-weight: 400;        
+        width: 100%;
+        padding: 4vw;
+        gap: 12px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #header-button-left{
+        width: 100%;
+        height: calc(4vh + 2vw);
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+
+    #header-button-right{
+        width: 100%;
+        height: calc(4vh + 2vw);
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: #23272A;
     }
     
     footer {
@@ -263,9 +351,11 @@ footer {
         justify-content: center;
         background-color:#23272A;
     }
-    
 
-    
+    #footer-img{
+        display: flex;
+        width: 50%;
+    }
 }
 
 
@@ -325,6 +415,7 @@ footer {
         display: flex;
         flex-direction: column;
         display: flex;
+        gap: 50px;
     }
 
     .container-animate-information{
@@ -333,11 +424,14 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 50px;
     }
 
     .container-img{
         width: calc(20rem + 2vw);
+        width: 100%;
     }
+
     .title-container{
         font-weight: 800;
         text-align: left;
@@ -382,11 +476,47 @@ footer {
     
     header{
         display: flex;
+        flex-direction: column;
         background-image: url(../img/Header\ Background.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         color: white;
+    }
+
+    .header-buttons{ 
+        font-family: "Open Sans", sans-serif;
+        font-size: 1 rem;
+        font-weight: 400;       
+        width: 100%;
+        padding: 4vw;
+        gap: 12px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #header-button-left{
+        width: 100%;
+        height: calc(4vh + 2vw);
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+
+    #header-button-right{
+        width: 100%;
+        height: calc(4vh + 2vw);
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: #23272A;
     }
     
     footer {
@@ -396,7 +526,12 @@ footer {
         align-items: center;
         justify-content: center;
         background-color:#23272A;
-    }   
+    }
+
+    #footer-img{
+        display: flex;
+        width: 50%;
+    }  
 }
 
 
@@ -449,11 +584,11 @@ footer {
 
     .container-animate{
         width: 100%;
-        padding: 4;
+        padding: 4vw;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
     }
         
@@ -463,6 +598,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 12px;
     }
 
     .container-animate-information{
@@ -471,6 +607,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 12px;
     }
 
     .container-img{
@@ -501,18 +638,18 @@ footer {
         font-family: "Luckiest Guy", cursive;
         width: 100%;
         display: flex;
-        text-align: center;
+        text-align: left;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
         line-height: 120%;
     }
     
     .text-container-animate{
         width: 100%;
         display: flex;
-        text-align: center;
+        text-align: left;
         align-items: center;
-        justify-content: center;
+        justify-content: left;
         line-height: 120%;
     }
 
@@ -523,13 +660,49 @@ footer {
     
     header{
         display: flex;
+        flex-direction: column;
         background-image: url(../img/Header\ Background.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         color: white;
     }
+
+    .header-buttons{
+        font-family: "Open Sans", sans-serif;
+        font-size: 1 rem;
+        font-weight: 500;       
+        width: 100%;
+        padding: 4vw;
+        gap: 12px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
+    #header-button-left{
+        width: 100%;
+        height: calc(4vh + 2vw);
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+
+    #header-button-right{
+        width: 100%;
+        height: calc(4vh + 2vw);
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-color: #23272A;
+    }
+
     footer {
         height: 10vh;
         width: 100%;
@@ -537,5 +710,10 @@ footer {
         align-items: center;
         justify-content: center;
         background-color:#23272A;
+    }
+
+    #footer-img{
+        display: flex;
+        width: 50%;
     }
 }
